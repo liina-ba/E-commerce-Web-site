@@ -1,0 +1,154 @@
+body{
+    font-family: 'Open Sans' , sans-serif;
+    background-color: #f6fafe;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+#latest-products{
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    width: 80%;
+    margin: 4rem auto;
+}
+
+#latest-products h1{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#latest-products h3{
+    font-style: italic;
+    color: #888;
+    margin-bottom: 4rem;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+#cart-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cart-table td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+
+}
+#cart-table img {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: auto; 
+    object-fit: cover; 
+}
+
+
+#cart-table .delete-btn {
+    background-color: #e3e1e1;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+#cart-table .delete-btn:hover {
+    background-color: #dbdbdb;
+    color: black;
+}
+
+.Total{
+    text-align: right;
+    font-size: 20px;
+}
+
+#total-price{
+    font-weight: bold;
+}
+
+#validate-order {
+
+    background: #042539;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#validate-order:hover {
+    background: #074063;
+}
+
+
+.cart-link {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-badge {
+    position: absolute;
+    top: 14px;
+    right: 50px;
+    background-color: #cd8f5c;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.quantity-control button {
+    background-color: #54bafa;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.quantity-control button:hover {
+    background-color: #052c45;
+}
+
+.quantity-control input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    -moz-appearance: textfield; 
+
+}

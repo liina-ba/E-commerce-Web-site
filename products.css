@@ -1,0 +1,222 @@
+ /* Basic Styling */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6fafe;
+}
+
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+
+.sidebar h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 25px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #2f2e2e;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar ul li a:hover {
+        color: #54bafa;
+    font-weight: bold;
+}
+
+
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.sorting-options {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.sorting-options label {
+    margin-bottom: 40px;
+    margin-left: 850px;
+    font-size: 16px;
+    color: #031221;
+}
+
+.sorting-options select {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding: 8px 12px;
+    font-size: 15px;
+    border: 1px solid #c0ddfb;
+    border-radius: 4px;
+    outline: none;
+}
+.product-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    padding-left: 30px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.product-card button {
+    padding: 10px 15px;
+    background-color: #042539;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.product-card button:hover {
+    background-color: #074063;
+}
+
+.product-card .quick-look {
+    background-color: #54bafa;
+}
+
+.product-card .quick-look:hover {
+    background-color: #78c7f8;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #54bafa;
+    color: white;
+    border-color: #68c3fb;
+}
+
+.pagination button:hover {
+    background-color: #f1f1f1;
+}
+
+.no-products {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 80%;
+}
+
+.modal h3 {
+    margin-bottom: 20px;
+}
+
+.modal .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal .btn {
+    background-color: #042539;
+    color: white;
+}
+
+.modal .btn-alt {
+    background-color: #54bafa;
+    color: white;
+}
+
+
+.modal .btn:hover {
+    background-color: #073958;
+}
+
+.modal .btn-alt:hover {
+    background-color: #21a6f8;
+}
