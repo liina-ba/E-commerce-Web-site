@@ -19,4 +19,3 @@ The project includes both **client and admin interfaces** with secure authentica
 - **Other Tools:** AJAX · phpMyAdmin · WAMPServer  
 
 
-Demo link of the website : https://youtu.be/Spz3GyBKTUg
